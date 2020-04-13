@@ -6,12 +6,12 @@ red = (255, 0, 0)
 green = (0, 255, 0)
 blue = (0, 0, 255)
 
-FPS = (input("\n\n______________________________________\n40 or below for  Beginners\n____________________________________________\n50 to 65 for  Intermediate\n__________________________________________\n70+ for Adavanced\n______________________________________________\nEnter your Speed value: -   "))
-if ('35'<FPS<'80'):
-    FPS = int(FPS)
-else:
-    FPS = int(60)
-pygame.init()
+#FPS = (input("\n\n______________________________________\n40 or below for  Beginners\n____________________________________________\n50 to 65 for  Intermediate\n__________________________________________\n70+ for Adavanced\n______________________________________________\nEnter your Speed value: -   "))
+#if ('35'<FPS<'80'):
+ #   FPS = int(FPS)
+#else:
+ #   FPS = int(60)
+#pygame.init()
 
 
 size = (800, 600)
