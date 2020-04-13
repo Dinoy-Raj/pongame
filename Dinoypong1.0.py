@@ -91,7 +91,7 @@ while not done:
 #redraw the rectangle
     drawrect(screen, rect_x, rect_y)
 
-#score board
+#score boar
     font = pygame.font.SysFont(('calibri'), 15, False, False)
     text = font.render("Score= " + str(score), True, white)
     screen.blit(text, [600, 100])
